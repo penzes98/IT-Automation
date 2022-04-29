@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    run: dotnet build --configuration Release
+    run: dotnet build -p:Version=1.2.3.4
     runs-on: ubuntu-latest
 
     steps:
