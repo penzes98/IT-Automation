@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    dotnet build --runtime ubuntu.18.04-x64
+    run: dotnet build --runtime ubuntu.18.04-x64
     runs-on: ubuntu-latest
 
     steps:
